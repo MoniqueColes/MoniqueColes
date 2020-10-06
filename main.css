@@ -1,0 +1,95 @@
+
+header{
+    position: sticky;
+    background-color:;
+    display: inline-block;
+    width: 100%;
+    height: 30px;
+    text-align: right;
+}
+
+.About{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    text-align: center;
+    width: 50%;
+    background-color: lightgray;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    padding: 70px 50px 70px 50px;
+    margin: 100px 10px 10px 10px;
+}
+
+.Photo{
+    display: right;
+    flex-direction: row;
+    
+    text-align: center;
+    width: 40%;
+    background-color: lightgray;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    padding: 70px 50px 70px 50px;
+    margin: 100px 10px 10px 10px;
+}
+
+body{
+    background: #2b6ed3;
+}
+
+.Education{
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: lightgray;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    padding: 70px 50px 70px 50px;
+    margin: 40px 40px 40px 150px;
+}
+
+.Experience{
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: lightgray;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    padding: 70px 50px 70px 50px;
+    margin: 40px 40px 40px 40px;
+}
+
+.Skills{
+    position: relative;
+    text-align: center;
+    width: 20%;
+    background-color: lightgray;
+    border: 2px solid black;
+    box-shadow: 2px 2px black;
+    padding: 70px 50px 70px 50px;
+    margin: 40px 40px 40px 40px;
+}
+
+footer {
+    position: fixed;
+    left: 0;    
+    bottom: 0;
+    width: 100%;
+    background-color: darkgray;
+    font-size: 1.2em;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em  2.0em 0;
+}
+
+#iconFooter {
+    display: inline-block;
+    list-style: none;
+    letter-spacing: 15px;
+}
+
+footer ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
