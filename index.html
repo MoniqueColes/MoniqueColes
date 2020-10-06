@@ -172,28 +172,29 @@
                 <div class="card">
                   <div class="card-body rounded-top border-top p-5">
                     <h3 class="text-center font-weight-bold my-4">Contact Me</h3>
-                    <form class="mb-4 mx-md-5" action="https://formspree.io/f/{form_id}">
+                    <form class="mb-4 mx-md-5" action="https://formspree.io/f/maylqogy"
+                    method="POST">
                       <div class="row">
                         <div class="col-md-6 mb-4">
-                          <input type="text" id="name" class="form-control" placeholder="Name">
+                          <input type="text" name="name" id="name" class="form-control" placeholder="Name">
                         </div>
                         <div class="col-md-6 mb-4">
                           <!-- Email -->
-                          <input type="email" id="email" class="form-control" placeholder="Email">
+                          <input type="email" name="email" id="email" class="form-control" placeholder="Email">
                         </div>
                       </div>
                       <div class="row">
                         <div class="col-md-12 mb-4">
-                          <input type="text" id="subject" class="form-control" placeholder="Subject">
+                          <input type="text" name="subject" id="subject" class="form-control" placeholder="Subject">
                         </div>
                       </div>
                       <div class="row">
                         <div class="col-md-12">
                           <div class="form-group mb-4">
-                            <textarea class="form-control rounded" id="message" rows="3" placeholder="Please enter your message..."></textarea>
+                            <textarea class="form-control rounded" name="message" id="message" rows="3" placeholder="Please enter your message..."></textarea>
                           </div>
                           <div class="text-center">
-                            <input class="btn btn-primary" type="submit" value="Submit">  
+                            <input class="btn btn-primary" type="submit" value="Send">  
                           </div>
                         </div>
                       </div>
