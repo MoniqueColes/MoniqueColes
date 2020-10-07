@@ -1,3 +1,7 @@
+body{
+    background: #2b6ed3;
+}
+
 header{
     position: sticky;
     display: inline-block;
@@ -11,7 +15,7 @@ header{
     width: 10%;
     height: 10%;
     margin: 300px 10px 150px 50px;
-    margin: 340px 120px 40px 90px;
+    margin: 340px 120px 0px 90px;
 }
 
 .About{
@@ -23,10 +27,6 @@ header{
     box-shadow: 2px 2px black;
     padding: 50px 50px 70px 50px;
     margin: 300px 0px 100px 300px;
-}
-
-body{
-    background: #2b6ed3;
 }
 
 .Education{
@@ -62,8 +62,8 @@ body{
     margin: 40px 40px 40px 40px;
 }
 
-footer {
-    position: fixed;
+footer{
+    position: static;
     left: 0;    
     bottom: 0;
     max-height: 1000px;
@@ -75,14 +75,14 @@ footer {
     padding: 0.8em  3.0em 0;
 }
 
-#iconFooter {
+#iconFooter{
     display: inline-block;
     list-style: none;
     letter-spacing: 15px;
     margin-right: 70px;
 }
 
-footer ul li {
+footer ul li{
     display: inline-block;
     margin-right: 20px;
 }
