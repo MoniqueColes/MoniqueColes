@@ -1,8 +1,9 @@
 body{
-    background: #2b6ed3;
+    background: lightgray;
 }
 
 header{
+    filter: grayscale(100%);
     position: sticky;
     display: inline-block;
     width: 100%;
@@ -10,6 +11,7 @@ header{
 }
 
 .Picture{
+    filter: grayscale(100%);
     position: relative;
     text-align: center;
     width: 10%;
@@ -21,8 +23,8 @@ header{
 .About{
     position: relative;
     text-align: left;
-    width: 40%;
-    background-color: lightgray;
+    width: 45%;
+    background-color: ghostwhite;
     border: 2px solid black;
     box-shadow: 2px 2px black;
     padding: 50px 50px 70px 50px;
@@ -33,7 +35,7 @@ header{
     position: relative;
     text-align: center;
     width: 20%;
-    background-color: lightgray;
+    background-color: ghostwhite;
     border: 2px solid black;
     box-shadow: 2px 2px black;
     padding: 70px 50px 70px 50px;
@@ -44,7 +46,7 @@ header{
     position: relative;
     text-align: center;
     width: 20%;
-    background-color: lightgray;
+    background-color: ghostwhite;
     border: 2px solid black;
     box-shadow: 2px 2px black;
     padding: 70px 50px 70px 50px;
@@ -55,7 +57,7 @@ header{
     position: relative;
     text-align: center;
     width: 20%;
-    background-color: lightgray;
+    background-color: ghostwhite;
     border: 2px solid black;
     box-shadow: 2px 2px black;
     padding: 70px 50px 70px 50px;
@@ -63,11 +65,6 @@ header{
 }
 
 footer{
-    position: static;
-    left: 0;    
-    bottom: 0;
-    max-height: 1000px;
-    width: 100%;
     background-color: rgb(52, 52, 52);
     font-size: 1.2em;
     color: #fff;
